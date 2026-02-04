@@ -37,12 +37,3 @@ curl -X POST \
 -F "uid=123" \
 http://localhost:5000/match/CompareAudio
 The response includes a similarity label and a similarity score indicating how closely the two audio recordings match.
-
-Key Features
-Frequency-domain analysis using STFT and CQT
-
-Chroma, pitch, and spectral feature extraction
-
-Similarity evaluation using Qmax, Dmax, and related measures
-
-Scoring for consistency, pronunciation, intonation, pitch, and speed
